@@ -1,12 +1,26 @@
 import React from 'react'
 import { useStyles } from './InputLogin.style'
-import { TextField } from '@material-ui/core'
+import { TextField, createTheme, ThemeProvider } from '@material-ui/core'
 
+const theme = createTheme({
+    palette: {
+        primary: {
+            main: '#CE640B'
+        }
+    }
+})
 
-export const InputLogin: React.FC = () => {
+interface InputLoginProps {
+    title: string
+}
+
+export const InputLogin: React.FC<InputLoginProps> = (props) => {
     const styles = useStyles()
     return (
-        <TextField variant="outlined" label="Login" className={styles.input} />
-
+        <div className={styles.container_input}>
+            <ThemeProvider theme={theme}>
+                <TextField variant="outlined" label={props.title} className={styles.input} color="primary" type="password" />
+            </ThemeProvider>
+        </div>
     )
 }

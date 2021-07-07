@@ -48,8 +48,14 @@ export const useStyles = makeStyles({
     mid_right: {
         width: '100%',
         display: 'flex',
-        justifyContent: 'center'
+        flexDirection: 'column'
         
+    },
+
+    buttondiv: {
+        display: 'flex',
+        justifyContent: 'center',
+        marginTop: '20px'
     }
 
 })

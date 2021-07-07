@@ -1,7 +1,9 @@
 import React from 'react'
 import { Typography, Card } from '@material-ui/core'
 import { useStyles } from './MainPage.style'
+
 import { InputLogin } from 'components/InputLogin'
+import { ButtonLogar } from 'components/ButtonLogar'
 
 export const MainPage: React.FC = () => {
     const style = useStyles()
@@ -21,7 +23,11 @@ export const MainPage: React.FC = () => {
                     </div>
 
                     <div className={style.mid_right}>
-                        <InputLogin />
+                        <InputLogin title="Login"/>
+                        <InputLogin title="Senha"/>
+                        <div className={style.buttondiv}>
+                            <ButtonLogar />
+                        </div>
                     </div>
                 </div>
 
