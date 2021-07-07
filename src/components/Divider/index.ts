@@ -1,0 +1,1 @@
+export { DividerComp } from './Divider'

@@ -1,9 +1,11 @@
 import React from 'react'
-import { Typography, Card } from '@material-ui/core'
+import { Typography, Card, Link } from '@material-ui/core'
 import { useStyles } from './MainPage.style'
 
 import { InputLogin } from 'components/InputLogin'
 import { ButtonLogar } from 'components/ButtonLogar'
+import { DividerComp } from 'components/Divider'
+import { MediaButtons } from 'components/MediaButtons'
 
 export const MainPage: React.FC = () => {
     const style = useStyles()
@@ -24,9 +26,19 @@ export const MainPage: React.FC = () => {
 
                     <div className={style.mid_right}>
                         <InputLogin title="Login"/>
-                        <InputLogin title="Senha"/>
+                        <InputLogin title="Senha" type="password"/>
                         <div className={style.buttondiv}>
                             <ButtonLogar />
+                        </div>
+                        <div className={style.help_login}>
+                            <Typography>Problemas com login? <Link href="#">Clique Aqui</Link></Typography>
+                        </div>
+
+                        <div className={style.bottom_right}>
+                            <div className={style.div_divisor}>
+                                <DividerComp />
+                            </div>
+                            <MediaButtons />
                         </div>
                     </div>
                 </div>

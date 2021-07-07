@@ -11,7 +11,8 @@ const theme = createTheme({
 })
 
 interface InputLoginProps {
-    title: string
+    title: string,
+    type?: string
 }
 
 export const InputLogin: React.FC<InputLoginProps> = (props) => {
@@ -19,7 +20,7 @@ export const InputLogin: React.FC<InputLoginProps> = (props) => {
     return (
         <div className={styles.container_input}>
             <ThemeProvider theme={theme}>
-                <TextField variant="outlined" label={props.title} className={styles.input} color="primary" type="password" />
+                <TextField variant="outlined" label={props.title} className={styles.input} color="primary" type={props.type} />
             </ThemeProvider>
         </div>
     )

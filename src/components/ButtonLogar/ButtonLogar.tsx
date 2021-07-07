@@ -7,6 +7,6 @@ export const ButtonLogar: React.FC = () => {
     const styles = useStyles()
     return (
 
-        <Button variant="contained" className={styles.btn} >Logar</Button>
+        <Button variant="contained" className={styles.btn} >Entrar</Button>
     )
 }

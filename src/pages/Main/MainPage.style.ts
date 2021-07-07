@@ -13,7 +13,7 @@ export const useStyles = makeStyles({
 
     card: {
         width: '50%',
-        height: '60%',
+        height: '70%',
         display: 'flex'
     },
 
@@ -56,6 +56,24 @@ export const useStyles = makeStyles({
         display: 'flex',
         justifyContent: 'center',
         marginTop: '20px'
+    },
+
+    help_login: {
+        textAlign: 'center'
+    },
+
+    bottom_right: {
+        display: 'flex',
+        width: '100%',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        marginTop: '10px',
+    },
+
+    div_divisor: {
+        width: '100%',
+        display: 'flex',
+        justifyContent: 'center'
     }
 
 })
