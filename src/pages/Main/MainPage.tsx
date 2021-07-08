@@ -47,6 +47,13 @@ export const MainPage: React.FC = () => {
                 </div>
 
                 <div className={style.left}>
+                    <div className={style.color_overlay}></div>
+
+                    <div className={style.text_content_left}>
+                        <Typography className={style.textleft}>WHY?</Typography>
+                        <Typography className={style.solucoes}>SOLUÇÕES EMPRESARIAIS</Typography>
+                    </div>
+
                     
                 </div>
             </Card>

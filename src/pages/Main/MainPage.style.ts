@@ -1,5 +1,6 @@
 import { makeStyles } from '@material-ui/core'
 import '@fontsource/satisfy'
+import Bgempre from '../../assets/img/empresa-bg.jpg'
 
 export const useStyles = makeStyles({
     body: {
@@ -25,7 +26,10 @@ export const useStyles = makeStyles({
 
     left: {
         width: '50%',
-        background: 'linear-gradient(90deg, rgba(227,131,13,1) 30%, rgba(142,3,3,1) 98%)'
+        backgroundImage: `url(${Bgempre})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        position: 'relative'
     },
 
     header_right: {
@@ -88,5 +92,37 @@ export const useStyles = makeStyles({
 
     text_help: {
         fontSize: '13px'
+    },
+
+    color_overlay: {
+        zIndex: 2,
+        width: '100%',
+        height: '100%',
+        background: 'linear-gradient(90deg, rgba(227,131,13,1) 30%, rgba(142,3,3,1) 98%)',
+        opacity: '0.5',
+        position: 'absolute'
+    },
+
+
+    text_content_left: {
+        zIndex: 1,
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: '100%',
+        flexDirection: 'column'
+    },
+
+    textleft: {
+        zIndex: 3,
+        color: '#FFF',
+        fontSize: '80px',
+        fontFamily: 'Satisfy',
+        fontWeight: 'bold'
+    },
+
+    solucoes: {
+        zIndex: 3,
+        color: '#FFF'
     }
 })
