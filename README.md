@@ -1,5 +1,10 @@
 # <p align="center">WHY? Login Page</p>
 <p align="center"> Esse projeto é uma aplicação ficticia que desenvolvi para estudo de alguns conceitos de design e Front-End</p>
+<p align="center">
+  <a href="#hammer_and_pick-tecnologias-utilizadas">Tecnologias Utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#warning-pré-requisitos">Pré-Requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#gear-rodando-o-projeto">Rodando o projeto</a>
+</p>
 
 ---
 
