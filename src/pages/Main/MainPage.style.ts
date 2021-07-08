@@ -25,6 +25,7 @@ export const useStyles = makeStyles({
 
     left: {
         width: '50%',
+        background: 'linear-gradient(90deg, rgba(227,131,13,1) 30%, rgba(142,3,3,1) 98%)'
     },
 
     header_right: {
@@ -59,21 +60,33 @@ export const useStyles = makeStyles({
     },
 
     help_login: {
+        textAlign: 'center',
+        marginTop: '5px'
+    },
+
+    bottom: {
+        display: 'flex',
+        justifyContent: 'center',
+        flexDirection: 'column'
+    },
+
+    redestext: {
         textAlign: 'center'
     },
 
-    bottom_right: {
-        display: 'flex',
-        width: '100%',
-        flexDirection: 'column',
-        justifyContent: 'center',
-        marginTop: '10px',
-    },
-
-    div_divisor: {
-        width: '100%',
+    mediabuttons: {
         display: 'flex',
         justifyContent: 'center'
-    }
+    },
+    divisor: {
+        display: 'flex',
+        justifyContent: 'center',
+        width:'100%',
+        marginTop: '10px',
+        marginBottom: '10px'
+    },
 
+    text_help: {
+        fontSize: '13px'
+    }
 })

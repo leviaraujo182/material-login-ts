@@ -31,20 +31,23 @@ export const MainPage: React.FC = () => {
                             <ButtonLogar />
                         </div>
                         <div className={style.help_login}>
-                            <Typography>Problemas com login? <Link href="#">Clique Aqui</Link></Typography>
+                            <Typography className={style.text_help}>Problemas com login? <Link href="#">Clique Aqui</Link></Typography>
                         </div>
-
-                        <div className={style.bottom_right}>
-                            <div className={style.div_divisor}>
-                                <DividerComp />
-                            </div>
+                    </div>
+                    <div className={style.bottom}>
+                        <div className={style.divisor}>
+                            <DividerComp />
+                        </div>
+                        <Typography className={style.redestext}>Conecte utilizando as redes sociais</Typography>
+                        <div className={style.mediabuttons}>
                             <MediaButtons />
                         </div>
                     </div>
+
                 </div>
 
                 <div className={style.left}>
-                    B
+                    
                 </div>
             </Card>
         </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import { useStyles } from './InputLogin.style'
-import { TextField, createTheme, ThemeProvider } from '@material-ui/core'
+import { TextField, createTheme, ThemeProvider, InputAdornment } from '@material-ui/core'
+import { AccountCircle } from '@material-ui/icons'
 
 const theme = createTheme({
     palette: {
