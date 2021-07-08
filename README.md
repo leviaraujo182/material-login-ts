@@ -7,7 +7,7 @@
   <img src="https://i.imgur.com/HjbZBAT.png" />
 </p>
 
-# 🛠 Teconologias utilizadas 
+# 🛠 Tecnologias utilizadas 
 - [ReactJS](https://pt-br.reactjs.org/)
 - [Material UI](https://material-ui.com/)
 - [Material UI Icons](https://material-ui.com/pt/components/icons/)
